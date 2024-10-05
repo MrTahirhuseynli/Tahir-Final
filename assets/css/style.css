@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Fontlar buraya gelecek */
+
+.damion-regular {
+    font-family: "Damion", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .pinyon-script-regular {
+    font-family: "Pinyon Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    text-decoration: none !important;
+}
+
+
+
+
+.playfair-display-TahirinFontu {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  /* Fontlar buraya gelecek */
+
+  
+  
+header {
+    background:linear-gradient(89.82deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0) 87.45%) ,url('../images/coffee_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ 
+
+}
+
+.introduction {
+    padding-top: 111px;
+    padding-bottom: 95px;
+}
+
+.signin {
+    background-color: transparent;
+    color:#fff;
+    border: none;
+    text-decoration: underline;
+}
+
+.nav-item a {
+    font-size:14px;
+}
+/* group selector */
+.signup, .order-now, .learn-more {
+    background: #F9C06A;
+    border-radius: 25px;
+    width: 100px;
+    height: 48px;
+    border: none;
+    transition: 1.2s ease;
+
+}
+.JoinUs{
+    width: 100px;
+    height: 48px;
+    border: none;
+    transition: 1.2s ease;
+    background: #F9C06A;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.footerlinknone{
+    text-decoration: none;
+}
+.signup:hover, .order-now:hover {
+    box-shadow: 20px 6px 12px 0px #F9C06A38;
+
+}
+
+.typed-cursor.typed-cursor--blink {
+    display: none;
+}
+
+
+/* discover hissesi */
+
+
+.discover-left img {
+    left: 0;
+    top: -20px;
+    width: 100px;
+}
+
+.discover-left h2 {
+    color: #603809;
+
+}
+
+.discover-left article {
+    color: #707070;
+    margin: 29px 0;
+
+}
+
+
+/* .enjoy */
+
+.enjoy h2 {
+    color: #603809;
+
+}
+
+.coffee-info {
+    padding: 20px;
+}
+
+.coffee-info .order-now {
+    margin-top: 20px;
+}
+
+
+span.typed-cursor{
+    display: none !important;
+}
+ .coffee img{
+    width: 88px;
+    height: 88px;
+ }
+
+
+@media(min-width:767px) {
+    .introduction {
+        width: 463px;
+    }
+
+    .discover-left {
+        margin-top: 150px;
+    }
+
+    .discover-left h2 {
+        font-size: 54px;
+        background-color:transparent;
+    }
+
+    .discover-left img {
+        position: absolute;
+        left: 0 !important;
+        top: 371px !important;
+        width: 400px !important;
+        z-index:-999;
+    }
+
+    .enjoy h2 {
+        font-size: 54px;
+    
+    }
+    
+}
+
+
+@media(min-width:992px) {
+    .introduction h1 {
+        font-size: 220px;
+    }
+}
